@@ -10,4 +10,4 @@ USER inspircd
 
 EXPOSE 5001 6660-6667 6697 7005
 
-CMD /inspircd/run/bin/inspircd start
+CMD /inspircd/run/bin/inspircd --no-fork start
